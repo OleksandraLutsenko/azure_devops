@@ -1,0 +1,2 @@
+Practical Task 1: Introduction to Microsoft Entra ID
+ Create a basic Microsoft Entra ID setup for an organization to manage identity and access.

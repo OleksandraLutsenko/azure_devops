@@ -1,0 +1,4 @@
+Practical Task 2: Enabling Single Sign-On (SSO) and Multi-Factor Authentication (MFA)
+
+Configure Single Sign-On (SSO) and Multi-Factor Authentication (MFA) for users in a Microsoft Entra ID 
+directory to enhance identity and access security.

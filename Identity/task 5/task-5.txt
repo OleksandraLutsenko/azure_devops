@@ -1,0 +1,4 @@
+Practical Task 5: Creating and Assigning Basic Azure Policies
+
+Define and assign Azure Policies to enforce compliance with organizational standards for resource 
+management

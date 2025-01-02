@@ -1,0 +1,4 @@
+Practical Task 4: Securing Sensitive Information with Azure Key Vault
+
+Set up Azure Key Vault to securely store and manage sensitive information such as keys, secrets, and 
+certificates
