@@ -1,0 +1,9 @@
+Set up a Windows Virtual Machine (VM) on Azure and configure access via Remote Desktop 
+Protocol (RDP).
+Requirements:
+1. Create a Windows VM (e.g., Windows Server 2019) in Azure using the free tier.
+2. Enable and configure Remote Desktop Protocol (RDP) for secure access to the VM.
+3. Connect to the VM via RDP using Azure credentials.
+4. Install a web server role (IIS) and deploy a simple test HTML page.
+5. Verify access to the test page from a browser.
+6. Ensure that unnecessary ports are closed, allowing only RDP (port 3389) and HTTP (port 80)

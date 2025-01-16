@@ -1,0 +1,25 @@
+et up and deploy an Azure Function that processes HTTP requests directly from the Azure portal.
+Requirements:
+1. Set Up the Function App:
+o Access the Azure portal and navigate to Azure Functions.
+o Create a new Function App using the Consumption (Serverless) plan within the free 
+tier.
+2. Create a Function:
+o Select the HTTP trigger template.
+o Choose a language of your choice (e.g., C#, JavaScript, or Python).
+3. Customize the Function:
+o Modify the default code to return the following response:
+Hello, [name]! Welcome to Azure Functions.
+o If no name parameter is provided in the query string or request body, the response 
+should be:
+Hello! Please provide your name.
+4. Test the Function:
+o Use the Test/Run feature in the Azure portal to send HTTP requests.
+o Verify the Function responds appropriately with and without the name parameter.
+5. Verify External Access:
+o Retrieve the public URL of the Azure Function.
+o Test the Function using a browser or a tool like Postman to ensure it's externally 
+accessible.
+6. Monitor and Inspect:
+o Navigate to the Monitor tab of the Function App.
+o Check metrics like execution count, response time, and errors
