@@ -1,0 +1,37 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: stateless-nginx
+spec:
+  replicas: 1  # start with a single replica
+  selector:
+    matchLabels:
+      app: stateless-nginx
+  template:
+    metadata:
+      labels:
+        app: stateless-nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:latest
+        ports:
+        - containerPort: 80
+        resources:
+          requests:
+            cpu: "50m"
+            memory: "64Mi"
+          limits:
+            cpu: "100m"
+            memory: "128Mi"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: stateless-nginx-service
+spec:
+  type: LoadBalancer
+  ports:
+    - port: 80
+  selector:
+    app: stateless-nginx
